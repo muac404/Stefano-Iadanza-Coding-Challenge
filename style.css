@@ -1,0 +1,96 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: "Red Hat Display", sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 800px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 2%;
+  margin: auto;
+  margin-top: 50px;
+
+}
+
+img{
+  width: 20%;
+  padding-top: 40px;
+}
+
+h2{
+  color: #08dc04;
+  margin: 2px;
+
+}
+
+header{
+  text-align: center
+}
+
+nav{
+  background-color: #08dc04;
+  width: 700px;
+  margin: auto;
+}
+
+.buttons{
+  text-align: center;
+  padding: 7px;
+
+}
+
+button{
+  font-size: 11px;
+
+}
+
+main{
+  color: white;
+  width: 700px;
+  margin: auto;
+
+}
+
+section > div{
+  font-size: 12px;
+}
+
+.singolo-monopattino{
+  padding-top: 15px;
+
+}
+
+
+.nome-monopattino{
+  font-size: 18px;
+  font-weight: bold;
+
+
+}
+
+.batteria-media{
+  width: 35%;
+  height: 20px;
+  background-color: #f5b453;
+  border-radius: 5px;
+
+}
+
+.batteria-carica{
+  width: 60%;
+  height: 20px;
+  background-color: #08dc04;
+  border-radius: 5px;
+
+}
+
+.batteria-scarica{
+  width: 15%;
+  height: 20px;
+  background-color: #bb4443;
+  border-radius: 5px;
+
+}
